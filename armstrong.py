@@ -1,7 +1,6 @@
-def Armstrong_Calculator():
+def Armstrong_Calculator(OriginalNumber):
     while True:
         count = 0
-        OriginalNumber = int(input("Enter a number "))
         number = OriginalNumber
 
         while (number > 0):
@@ -26,5 +25,6 @@ no = ["No", "no", "n", "quit", "Quit", "Fuck you"]
 while True:    
     begin = input("Initiate Armstrong Number Calculator?")
     if begin in yes:
-        Armstrong_Calculator()            
+        OriginalNumber = input("Type a number to be calculated, or two numbers(separated by commas)")
+        Armstrong_Calculator(OriginalNumber)
     elif begin in no break else print("Please type an adequate answer.")
