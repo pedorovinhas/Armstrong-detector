@@ -27,4 +27,7 @@ while True:
     if begin in yes:
         OriginalNumber = input("Type a number to be calculated, or two numbers(separated by commas)")
         Armstrong_Calculator(OriginalNumber)
-    elif begin in no break else print("Please type an adequate answer.")
+    elif begin in no:
+        break
+    else:
+        print("Please type an adequate answer.")
