@@ -27,7 +27,4 @@ while True:
     begin = input("Initiate Armstrong Number Calculator?")
     if begin in yes:
         Armstrong_Calculator()            
-    elif begin in no:
-        break
-    else:
-        print("Please type an adequate answer.")
+    elif begin in no break else print("Please type an adequate answer.")
